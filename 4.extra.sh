@@ -1,5 +1,4 @@
 #!/bin/bash
 
-# Actualización inicial
-sudo zypper in -y nestopia 
-
+# Extra software 
+sudo zypper in -y nestopia screenfetch neofetch 

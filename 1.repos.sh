@@ -11,7 +11,7 @@ chsh -s /usr/bin/fish
 sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ "Packman Repository"
 sudo zypper dup --from "Packman Repository" --allow-vendor-change
 sudo zypper in -y fetchmsttfonts free-ttf-fonts terminus-ttf-fonts opengost-ttf-fonts saja-cascadia-code-fonts google-inconsolata-fonts fira-code-fonts lato-fonts hack-fonts ubuntu-fonts fontawesome-fonts fontawesome-fonts-web
-sudo zypper in -y geary chromium chromium-ffmpeg-extra chromium-plugin-widevinecdm opera telegram-desktop tilix nautilus-extension-tilix tilix-lang opi
+sudo zypper in -y chromium chromium-ffmpeg-extra chromium-plugin-widevinecdm opera telegram-desktop tilix nautilus-extension-tilix tilix-lang opi
 sudo zypper in -y mpd mpd-doc mpDris2 mpDris2-lang ncmpcpp clementine tuner spotify-easyrpm vlc vlc-codecs
 spotify-easyrpm
 
