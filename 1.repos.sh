@@ -13,7 +13,7 @@ sudo zypper dup --from "Packman Repository" --allow-vendor-change
 
 # Familias de fuentes tipográficas
 sudo zypper in -y fetchmsttfonts free-ttf-fonts terminus-ttf-fonts opengost-ttf-fonts saja-cascadia-code-fonts google-inconsolata-fonts fira-code-fonts lato-fonts hack-fonts ubuntu-fonts fontawesome-fonts fontawesome-fonts-web
-sudo zypper in libertinus-fonts libertinus-fonts texlive-libertinus-doc texlive-libertinus-fonts texlive-libertinus-fonts-doc texlive-libertinus-fonts-fonts texlive-libertinus-otf-doc texlive-libertinus-type1 texlive-libertinus-type1-doc texlive-libertinus-type1-fonts texlive-libertinust1math texlive-libertinust1math-doc texlive-libertinust1math-fonts  
+sudo zypper in libertinus-fonts libertinus-fonts   
 
 # Aplicaciones varias
 sudo zypper in -y chromium chromium-ffmpeg-extra chromium-plugin-widevinecdm opera telegram-desktop tilix nautilus-extension-tilix tilix-lang opi
@@ -23,9 +23,9 @@ sudo zypper in -y mpd mpd-doc mpDris2 mpDris2-lang ncmpcpp clementine tuner spot
 spotify-easyrpm
 
 # nVidia
-sudo zypper ar -cfp 90 https://download.nvidia.com/opensuse/tumbleweed/ "nVidia Graphics Drivers"
-sudo zypper dup --from "nVidia Graphics Drivers" --allow-vendor-change
-sudo zypper inr 
+#sudo zypper ar -cfp 90 https://download.nvidia.com/opensuse/tumbleweed/ "nVidia Graphics Drivers"
+#sudo zypper dup --from "nVidia Graphics Drivers" --allow-vendor-change
+#sudo zypper inr 
 
 # Quitar paquetes innecesarios
 sudo zypper rm PackageKit opensuse-welcome opensuse-welcome-lang gnome-shell-classic
