@@ -28,5 +28,6 @@ spotify-easyrpm
 #sudo zypper inr 
 
 # Quitar paquetes innecesarios
-sudo zypper rm PackageKit opensuse-welcome opensuse-welcome-lang gnome-shell-classic
+sudo zypper rm PackageKit opensuse-welcome opensuse-welcome-lang 
+sudo zypper rm gnome-shell-classic gnome-shell-extension-desktop-icons
 sudo zypper al PackageKit opensuse-welcome opensuse-welcome-lang 
