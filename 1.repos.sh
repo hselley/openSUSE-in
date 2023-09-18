@@ -4,8 +4,8 @@
 sudo zypper dup
 
 # Paquetes básicos
-sudo zypper in -y exa fish zsh git-subrepo-zsh-completion flatpak-zsh-completion exa-zsh-completion alacritty-zsh-completion neovim alacritty alacritty alacritty-fish-completion alacritty-bash-completion alacritty-zsh-completion
-#chsh -s /usr/bin/fish
+sudo zypper in -y exa fish zsh git-subrepo-zsh-completion flatpak-zsh-completion alacritty-zsh-completion neovim alacritty alacritty alacritty-fish-completion alacritty-bash-completion alacritty-zsh-completion
+chsh -s /usr/bin/fish
 
 # Packman
 sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ "Packman Repository"
