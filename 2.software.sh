@@ -5,9 +5,9 @@ sudo zypper in -y geary
 # Codecs
 sudo zypper in -y gstreamer-plugin-aravis gstreamer-plugins-bad-codecs gstreamer-plugins-good-extra gstreamer-plugins-good-jack gstreamer-plugins-rs gstreamer-plugins-ugly-codecs gstreamer-plugins-vaapi gstreamer-transcoder
 
-
 # Temas
-sudo zypper in -y materia-gtk-theme metatheme-arc-common metatheme-paper-common mojave-gtk-theme paper-icon-theme papirus-icon-theme
+#sudo zypper in -y materia-gtk-theme metatheme-arc-common metatheme-paper-common mojave-gtk-theme paper-icon-theme papirus-icon-theme
+sudo zypper in -y paper-icon-theme papirus-icon-theme
 
 # Google Chrome
 wget https://dl.google.com/linux/linux_signing_key.pub
