@@ -33,4 +33,5 @@ flatpak install zoom
 flatpak install ferdium
 
 # OBS
-#opi ulauncher
+opi ulauncher
+opi codecs

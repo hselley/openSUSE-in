@@ -14,12 +14,13 @@ sudo zypper dup --from "Packman Repository" --allow-vendor-change
 # Familias de fuentes tipográficas
 sudo zypper in -y fetchmsttfonts free-ttf-fonts terminus-ttf-fonts opengost-ttf-fonts saja-cascadia-code-fonts google-inconsolata-fonts fira-code-fonts lato-fonts hack-fonts ubuntu-fonts fontawesome-fonts fontawesome-fonts-web
 sudo zypper in libertinus-fonts libertinus-fonts   
+sudo zypper in jetbrains-mono-fonts
 
 # Aplicaciones varias
-sudo zypper in -y chromium chromium-ffmpeg-extra chromium-plugin-widevinecdm opera telegram-desktop tilix nautilus-extension-tilix tilix-lang opi
+sudo zypper in -y chromium chromium-ffmpeg-extra chromium-plugin-widevinecdm opera telegram-desktop opi alacarte tilix nautilus-extension-tilix tilix-lang opi
 
 # Multimedia
-sudo zypper in -y mpd mpd-doc mpDris2 mpDris2-lang ncmpcpp clementine tuner spotify-easyrpm vlc vlc-codecs
+sudo zypper in -y mpd mpd-doc mpDris2 mpDris2-lang clementine tuner spotify-easyrpm vlc vlc-codecs strawberry
 spotify-easyrpm
 
 # nVidia

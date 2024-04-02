@@ -9,7 +9,7 @@ sudo zypper in -y filezilla git apache2 apache2-mod_php8 php8 php8-gettext php8-
 sudo zypper in octave octave-doc R-base rstudio-desktop 
 
 ## Python 
-sudo zypper in -y jupyter-jupyterlab jupyter-jupyterlab-latex python311-scikit-build python311-scikit-dsp-comm python311-scikit-hep-testdata python311-scikit-image python311-scikit-learn python311-scikit-sound python311-scikit-sparse python311-scikit-umfpack python311-sklearn-pandas python311-numpy python311-sympy python311-prettytable
+sudo zypper in -y jupyter-jupyterlab jupyter-jupyterlab-latex python311-scikit-build python311-scikit-dsp-comm python311-scikit-hep-testdata python311-scikit-image python311-scikit-learn python311-scikit-sound python311-scikit-sparse python311-sklearn-pandas python311-numpy python311-sympy python311-prettytable
 sudo zypper in -y python311-matplotlib python311-matplotlib-latex jupyter-matplotlib jupyter-matplotlib-jupyterlab wine
 
 ## LaTeX
