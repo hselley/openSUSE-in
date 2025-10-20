@@ -1,6 +1,6 @@
 #!/bin/bash
 # Correo
-sudo zypper in -y geary
+#sudo zypper in -y geary
 
 # Codecs
 sudo zypper in -y gstreamer-plugin-aravis gstreamer-plugins-bad-codecs gstreamer-plugins-good-extra gstreamer-plugins-good-jack gstreamer-plugins-rs gstreamer-plugins-ugly-codecs gstreamer-plugins-vaapi gstreamer-transcoder
@@ -29,9 +29,9 @@ sudo zypper in -y codium
 # Flatpak
 sudo zypper install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install zoom
+#flatpak install zoom
 flatpak install ferdium
 
 # OBS
-opi ulauncher
+#opi ulauncher
 opi codecs
