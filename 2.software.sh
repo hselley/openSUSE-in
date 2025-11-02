@@ -4,6 +4,7 @@
 
 # Codecs
 sudo zypper in -y gstreamer-plugin-aravis gstreamer-plugins-bad-codecs gstreamer-plugins-good-extra gstreamer-plugins-good-jack gstreamer-plugins-rs gstreamer-plugins-ugly-codecs gstreamer-plugins-vaapi gstreamer-transcoder
+sudo zypper in opi
 
 # Temas
 #sudo zypper in -y materia-gtk-theme metatheme-arc-common metatheme-paper-common mojave-gtk-theme paper-icon-theme papirus-icon-theme
