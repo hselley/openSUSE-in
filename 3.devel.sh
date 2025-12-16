@@ -4,7 +4,13 @@
 
 ## Web
 sudo zypper in filezilla git apache2 apache2-mod_php8 php8 php8-gettext php8-mysql php8-pgsql phpMyAdmin mariadb mariadb-test mariadb-tools 
+
+# Contenedores
 sudo zypper in docker docker-compose docker-buildx
+sudo usermod -aG docker $USER
+sudo systemctl enable --now docker.service
+sudo zypper in cargo
+cargo install --locked ducker
 
 ## Numérico
 sudo zypper in octave octave-doc R-base #rstudio-desktop 

@@ -35,6 +35,6 @@ sudo systemctl start power-profiles-daemon
 #sudo zypper inr 
 
 # Quitar paquetes innecesarios
-sudo zypper rm PackageKit opensuse-welcome opensuse-welcome-lang 
 sudo zypper rm gnome-shell-classic evolution evolution-ews evolution-lang
-sudo zypper al PackageKit opensuse-welcome opensuse-welcome-lang 
+#sudo zypper rm PackageKit opensuse-welcome opensuse-welcome-lang 
+#sudo zypper al PackageKit opensuse-welcome opensuse-welcome-lang 
